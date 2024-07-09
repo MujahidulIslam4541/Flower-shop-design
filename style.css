@@ -115,3 +115,56 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+
+/* services section start */
+.servicec-section-container{
+    width: 850px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.seervices-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.services-text{
+    display: flex;
+    justify-content: space-around;
+    color: #272727CC;
+    width: 90%;
+}
+
+/* hot dell section start */
+
+.hot-deal-section-conatiner{
+    max-width: 1200px;
+    height: 400px;
+    margin-top: 100px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.hot-deal-section-content{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.hot-deal-section-text{
+    width: 50%;
+}
+
