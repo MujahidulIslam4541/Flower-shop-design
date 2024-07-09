@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Bnner section start */
+.banner-container{
+    max-width: 1200px;
+    height: 610px;
+    background: rgba(229, 84, 115, 0.1);
+    
+}
+.banner-contant{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+}
+.banner-text-container{
+    width: 50%;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-text-container h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #272727;
+}
+.banner-text-container p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #27272799;
+    margin-top: 15px;
+}
+.banner-text-container button{
+    margin-right: 350px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(229, 84, 115);
+    color: #fff;
+    border: none;
+}
+.banner-img-container{
+    width: 50%;
+    height: 610px;
+}
+.banner-img-container img{
+    width: 90%;
+    height: 90%;
+    margin-top: 60px;
+   
+}
+
+/* flower section start */
+.flower-section{
+    width: 850px;
+    height: 450px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.flower-section-text{
+    text-align: center;
+}
+.flower-section-text h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #272727;
+    padding-top: 30px;
+}
+.flower-section-text p{
+    font-size: 18px;
+    color: #27272799;
+    padding-top: 8px;
+}
+.flower-section-images{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+}
+.flower-section-img{
+    width: 30%;
+    height: 300px;
+    border-radius: 200px 200px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-background{
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-background2{
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-section-img img{
+    width: 80%;
+    height: 260px;
+    margin-top: 38px;
+}
+.imges-text{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: #272727;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
