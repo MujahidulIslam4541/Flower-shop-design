@@ -166,5 +166,16 @@
 }
 .hot-deal-section-text{
     width: 50%;
+    text-align: center;
+}
+.hot-deal-section-img{
+    width: 400px;
+    width: 250px;
+    /* display: flex;
+    justify-content: center; */
+}
+.hot-deal-section-img img{
+    width: 100%;
+    margin-left: 80px;
 }
 
