@@ -7,8 +7,8 @@
 
 /* Bnner section start */
 .banner-container{
-    max-width: 1200px;
-    height: 610px;
+    max-width: 100vw;
+    height: 96vh;
     background: rgba(229, 84, 115, 0.1);
     
 }
@@ -37,7 +37,7 @@
     color: #27272799;
     margin-top: 15px;
 }
-.banner-text-container button{
+.btn{
     margin-right: 350px;
     margin-top: 20px;
     padding: 5px 10px;
@@ -57,10 +57,31 @@
    
 }
 
+
+@media screen and (max-width:576px) {
+    .banner-contant{
+        flex-direction: column;
+    }
+    .banner-container{
+        height: 209vh;
+    }
+    .banner-text-container{
+        width: 100%;
+    }
+    .banner-img-container{
+        width: 100%;
+    }
+    .banner-img-container img{
+        margin-top: 0px;
+    }
+}
+
+
+
 /* flower section start */
 .flower-section{
-    width: 850px;
-    height: 450px;
+    max-width: 84vw;
+    height: 85vh;
     margin: 0px auto;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -117,9 +138,29 @@
 }
 
 
+@media screen and (max-width:576px) {
+    .flower-section-images{
+        flex-direction: column;
+    }
+    .flower-section{
+        height: auto;
+    }
+    .flower-section-img{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+    .imges-text{
+        display: none;
+    }
+    
+}
+
+
 /* services section start */
 .servicec-section-container{
-    width: 850px;
+    max-width: 85vw;
     height: 200px;
     margin: 0 auto;
     margin-top: 100px;
@@ -131,26 +172,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 150px;
     width: 90%;
     margin: 0 auto;
     padding-top: 35px;
 }
 
-.services-text{
-    display: flex;
-    justify-content: space-around;
-    color: #272727CC;
-    width: 90%;
+@media screen and (max-width:576px){
+    .seervices-images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .servicec-section-container{
+        height: auto;
+        padding-bottom: 30px;
+    }
 }
 
 /* hot dell section start */
 
 .hot-deal-section-conatiner{
-    max-width: 1200px;
-    height: 400px;
+    max-width: 100vw;
+    height: 60vh;
     margin-top: 100px;
-    border: 2px solid red;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
@@ -160,7 +207,6 @@
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    border: 2px solid black;
     display: flex;
     align-items: center;
 }
@@ -168,14 +214,51 @@
     width: 50%;
     text-align: center;
 }
+.hot-deal-section-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.hot-deal-section-text h2 span{
+    color: #E55473;
+}
+
+.hot-deal-section-text h2 p{
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.button{
+    margin-right: 0px;
+}
 .hot-deal-section-img{
     width: 400px;
     width: 250px;
-    /* display: flex;
-    justify-content: center; */
 }
 .hot-deal-section-img img{
     width: 100%;
     margin-left: 80px;
 }
+
+
+@media screen  and (max-width:576px){
+    .hot-deal-section-conatiner{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .hot-deal-section-content{
+        flex-direction: column;
+    }
+    .hot-deal-section-text{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .hot-deal-section-img img{
+        margin-left: 0;
+    }
+} 
+    
+
 
