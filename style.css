@@ -38,7 +38,7 @@
     margin-top: 15px;
 }
 .btn{
-    margin-right: 350px;
+    width: 120px;
     margin-top: 20px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -63,7 +63,7 @@
         flex-direction: column;
     }
     .banner-container{
-        height: 209vh;
+        height:auto;
     }
     .banner-text-container{
         width: 100%;
@@ -146,7 +146,7 @@
         height: auto;
     }
     .flower-section-img{
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 20px;
         
@@ -304,7 +304,7 @@
         gap: 20px;
     }
     .instagram-secton-images img{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     .instagram-section-container{
@@ -359,6 +359,12 @@
     color: #fff;
 }
 
+@media screen and (max-width:576px) {
+    #search{
+        width:25vh;
+    }
+}
+
 
 /* footer section strat */
 .footer-container{
@@ -387,3 +393,4 @@
     color: rgba(255, 255, 255, 0.9);
     padding-bottom: 30px;
 }
+
